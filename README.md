@@ -1,7 +1,7 @@
 # Heritage
 # Property Management System
 
-This project is a property management system featuring a backend implemented with Django REST framework and a frontend built with React. It allows users to view property listings, place bids, and manage property details and images.
+This project is a property management system featuring a backend implemented with Django REST framework and a frontend built with React. It allows users to view property listings, place bids, and manage property details.
 
 ## Features
 
@@ -20,7 +20,7 @@ This project is a property management system featuring a backend implemented wit
 
 ### Requirements
 
-- Python 3.x
+- Python 3.10
 - Django
 - Django REST framework
 
@@ -38,7 +38,7 @@ This project is a property management system featuring a backend implemented wit
     source env/bin/activate  # On Windows use `env\Scripts\activate`
     ```
 
-4. **Apply migrations**:
+3. **Apply migrations**:
     ```bash
     python manage.py migrate
     ```
@@ -82,12 +82,12 @@ This project is a property management system featuring a backend implemented wit
 
 2. **Install dependencies**:
     ```bash
-    npm install  # or `yarn install`
+    npm install
     ```
 
 3. **Start the React development server**:
     ```bash
-    npm start  # or `yarn start`
+    npm start
     ```
 
 ### Components
@@ -99,14 +99,14 @@ This project is a property management system featuring a backend implemented wit
 
 ### Axios Configuration
 
-Make sure you configure Axios to point to your Django backend:
+Configure Axios to point to your Django backend:
 
 **`src/axiosConfig.js`**:
 ```javascript
 import axios from 'axios';
 
 const instance = axios.create({
-  baseURL: 'http://localhost:8000/', // Change to your backend URL
+  baseURL: 'http://localhost:8000/',
 });
 
 export default instance;
