@@ -38,11 +38,6 @@ This project is a property management system featuring a backend implemented wit
     source env/bin/activate  # On Windows use `env\Scripts\activate`
     ```
 
-3. **Install dependencies**:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
 4. **Apply migrations**:
     ```bash
     python manage.py migrate
