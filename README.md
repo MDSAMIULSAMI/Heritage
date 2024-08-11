@@ -29,13 +29,13 @@ This project is a property management system featuring a backend implemented wit
 1. **Clone the repository**:
     ```bash
     git clone https://github.com/yourusername/your-repo.git
-    cd your-repo/backend
+    cd /backend
     ```
 
 2. **Create a virtual environment**:
     ```bash
     python -m venv env
-    source env/bin/activate  # On Windows use `env\Scripts\activate`
+    source env/bin/activate
     ```
 
 3. **Apply migrations**:
