@@ -1,4 +1,3 @@
-# listings/views.py
 from rest_framework import viewsets
 from rest_framework.permissions import IsAuthenticatedOrReadOnly, IsAdminUser
 from .models import Property, PropertyImage, Bid, Testimonial, TeamMember
